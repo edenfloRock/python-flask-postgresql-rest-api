@@ -5,10 +5,27 @@ Este es un proyecto de ejemplo para utilizar un base de datos PostgreSQL y acced
 
 Se debe considerar los siguiente:
 
-- Instalar las dependencias necesarias con el comando: pip install -r requirements.txt
-
 - Se asume que se cuenta con una base de datos PostgreSQL configurada con los respectivos accesos.
 
-- Se necesita ejecutar los scripts contenidos en el archivo */src/database/scripts/scripts.sql*
+- Descarga de archivos
+
+```sh
+git clone
+```
+
+- Conectarse a la bd de PostgreSQL y ejecutar los scripts contenidos en el archivo */src/database/scripts/scripts.sql* 
+
+- Crear ambiente e instalar las dependencias necesarias:
+```sh
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+```
 
 - Dentro del archivo *.env* se debe especificar los datos de acceso a la base de datos.
+
+```sh
+cd src
+python -B app.py
+```
