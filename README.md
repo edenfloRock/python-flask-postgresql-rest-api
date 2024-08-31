@@ -33,6 +33,8 @@ cd src
 python -B app.py
 ```
 
-Una vez arrancada la aplicación, usar los métodos:
-http://127.0.0.1:5000/api/movies/
-http://127.0.0.1:5000/api/movies/77849cb0-f33b-4157-b664-de7dad3fa21a  
+Una vez arrancada la aplicación, usar los URLs:
+
+- http://127.0.0.1:5000/api/movies/
+
+- http://127.0.0.1:5000/api/movies/77849cb0-f33b-4157-b664-de7dad3fa21a  
